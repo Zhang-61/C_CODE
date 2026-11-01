@@ -97,23 +97,23 @@
 //     return 0;
 // }
 
-void show_empty_seats(void)
-{
-    printf("30 emptyseats\n");
-}
+// void show_empty_seats(void)
+// {
+//     printf("30 emptyseats\n");
+// }
  
-void assignSeat(void)
-{
-    printf("you seat is on three row,three col\n");
-}
-int main()
-{
-    void(*menu[])(void)={show_empty_seats,assignSeat};
-    printf("---------------------------请选择------------------------\n");
-    printf("-------a.show_empty_seats----------b.assignseat---------\n");
-    char choice = '0';
-    scanf(" %c",&choice);
-    int i = choice-'a';
-    menu[i]();
-    return 0;
-}
+// void assignSeat(void)
+// {
+//     printf("you seat is on three row,three col\n");
+// }
+// int main()
+// {
+//     void(*menu[])(void)={show_empty_seats,assignSeat};
+//     printf("---------------------------请选择------------------------\n");
+//     printf("-------a.show_empty_seats----------b.assignseat---------\n");
+//     char choice = '0';
+//     scanf(" %c",&choice);
+//     int i = choice-'a';
+//     menu[i]();
+//     return 0;
+// }

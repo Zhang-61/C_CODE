@@ -65,15 +65,15 @@
 // }
 
 
-int main()
-{
-    char*p = (char*)malloc(INT_MAX);
-    if(p == NULL)
-    {
-        perror("使用malloc");
-        return 1;
-    }
-    free(p);
-    p = NULL;
-    return 0;
-}
+// int main()
+// {
+//     char*p = (char*)malloc(INT_MAX);
+//     if(p == NULL)
+//     {
+//         perror("使用malloc");
+//         return 1;
+//     }
+//     free(p);
+//     p = NULL;
+//     return 0;
+// }

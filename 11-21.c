@@ -80,16 +80,16 @@
 //     return 0;
 // }
 
-#pragma pack(1)
-struct test{
-    char i;
-    int j;
-    char z;
-};
-#pragma pack()
+// #pragma pack(1)
+// struct test{
+//     char i;
+//     int j;
+//     char z;
+// };
+// #pragma pack()
 
-int main()
-{
-    struct test a = {0};
-    printf("%zu\n",sizeof(a));
-}
+// int main()
+// {
+//     struct test a = {0};
+//     printf("%zu\n",sizeof(a));
+// }

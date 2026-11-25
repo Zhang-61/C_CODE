@@ -61,11 +61,11 @@
 // }
 
 
-#define MAX 1000
-int main()
-{
-    #undef MAX
-    int a = MAX;
-    printf("%d\n",a);
-    return 0;
-}
+// #define MAX 1000
+// int main()
+// {
+//     #undef MAX
+//     int a = MAX;
+//     printf("%d\n",a);
+//     return 0;
+// }
